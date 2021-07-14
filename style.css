@@ -1,0 +1,183 @@
+/* ------------------
+      font style
+------------------ */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); 
+
+ /* starting style */
+ .name{
+       display: flex;
+       background-color: #2D25A0;
+       padding-bottom: 169px;
+ }
+ .title{
+       color: white;
+       font-size: 64px;
+       margin-left: 147px;
+ }
+ .image img{
+      width: 556.01px;
+      height: 438px;
+      margin-right: 140px;
+      margin-top: 67px;
+ }
+ .first-image:hover .image{
+      transform: scale(1) rotate(360deg);
+      transition: transform 2s ease-in-out;
+ }
+ .button{
+       background-color: #E02C6D;
+       margin: 10px, 24px;
+       text-decoration: none;
+       margin-bottom: 169px;
+       color: white;
+       border-radius: 5px;
+       }
+       /* ----------------
+                 player layout
+           --------------*/
+           .container{
+                 background-color: rgba(245, 243, 243, 0.699);
+                 padding-bottom: 100px;
+           }
+.player-list{
+      padding-top: 70px;
+      padding-left: 210px;
+      padding-right: 210px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px 27px;
+}
+.player img{
+      
+      width: 300px;
+      height: 256px;
+}
+.player{
+      background-color: white;
+      max-width: 300px;
+      max-height: 456px;
+      border: 15px solid white;
+      border-radius: 5px;
+       
+} 
+/*---------------------
+surprise part
+------------------------- */
+.surprise-1{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgba(245, 243, 243, 0.699);
+      border: 5px solid lightsteelblue;
+     
+      
+      
+}
+.messi{
+      font-size: 30px;
+}
+.question{
+      text-decoration: none;
+      background-color: pink;
+      border-radius: 5px;
+      padding: 10px;
+}
+
+
+.messi-pic img{
+      margin-top: 10px;
+      width: 350px;
+      height: 300px;
+      border: 10px solid white;
+      
+}
+.messi-pic{
+      padding-left: 60px;
+}
+.surprise-2{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgba(245, 243, 243, 0.699);
+      border: 5px solid lightsteelblue;
+      margin-top: 20px;
+      margin-bottom: 30px;
+}
+
+.neymar{
+      font-size: 30px;
+}
+.product{
+      text-decoration: none;
+      background-color: pink;
+      border-radius: 5px;
+      padding: 10px;
+}
+.neymar-pic img{
+            margin-top: 10px;
+            width: 350px;
+            height: 300px;
+            border: 10px solid white;
+}
+}
+.neymar-pic{
+      padding-left: 60px;
+}
+/* -------------
+         Last part 
+         ---------------*/
+.contact-links{
+      background-color: rgba(245, 243, 243, 0.699);
+      padding-left: 400px;
+      padding-right: 481px;
+}
+.logo-image img{
+      width: 483.87px;
+      height: 110px;
+}
+.logos{
+      padding-top: 20px;
+      padding-left: 156px;
+      padding-right: 156px;
+      padding-bottom: 5px;
+}
+.fab-icon{
+      padding-left: 14px;
+}
+.copyright{
+      padding-left: 123px;
+}
+/* -------------
+         media queries
+         --------------- */
+         @media only screen and (max-width: 668px)
+         {
+               .name{
+                     flex-direction: column;
+                     align-items: center;
+               } 
+                         
+                   
+              .player-list{
+                    grid-template-columns: repeat(1, 1fr);
+                    
+              } 
+              .surprise-1, .surprise-2{
+                    flex-direction: column;
+              }
+              .contact-links{
+                    padding-left: 0px;
+              }
+              .logos{
+                    display: flex;
+              }
+               
+         }      
+         
+      
+      
+
+      
+
+
+       
